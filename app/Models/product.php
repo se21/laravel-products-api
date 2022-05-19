@@ -11,7 +11,8 @@ class product extends Model
     protected $fillable = [
         'id',
         'name',
-        'category_id',
+        'price',
+        'currency'
     ];
 
     public $timestamps=false;
